@@ -1,3 +1,5 @@
+@import "color";
+
 body {
     margin: 0;
     padding: 0;
@@ -21,17 +23,17 @@ nav > ul {
 
 nav > ul > li {
     font-size: 17px;
-    border: 1px solid #ff014f;
+    border: 1px solid $bg-color;
     border-radius: 5%;
     margin: 8px;
     padding: 10px 25px;
-    color: black;
+    color: $bg3-color;
     list-style: none;
 }
 
 ul > li:hover {
     cursor: pointer;
-    background-color: #ff014f;
+    background-color: $bg-color;
 }
 
 nav ul li a {
@@ -42,7 +44,7 @@ nav ul li a {
     width: 100%;
     height: 3px;
     margin: 8px;
-    background-color: #dbdbdb;
+    background-color: $bg2-color;
 }
 
 .main-nav {
@@ -56,7 +58,7 @@ nav ul li a {
     width: 110px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #dbdbdb;
+    border: 3px solid $bg2-color;
 }
 
 header {
@@ -70,16 +72,16 @@ header > h1 {
 }
 
 header > p {
-    color: black;
+    color: $bg3-color;
     font-size: 16px;
 }
 
 .icon i {
-    color: blueviolet;
+    color: $bg4-color;
     font-size: 25px;
     margin: 20px;
 }
 
 .icon i:hover {
-    color: #ff014f;
+    color: $bg-color;
 }
